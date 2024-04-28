@@ -25,7 +25,7 @@ Foodistan is built with the following technologies:
 
 ## Project Setup
 If you'd like to run the project locally or contribute to it, follow these steps:
-1. Clone the repository: `git clone <repository-url>`
+1. Clone the repository: `git clone https://github.com/Bilal00404/Foodistan-Food-Order.git`
 2. Navigate to the project directory: `cd foodistan-food-order`
 3. Open the project in a browser or use a local development server to view it.
 
