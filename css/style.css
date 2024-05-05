@@ -1,45 +1,45 @@
 /* CSS Reset */
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
 /* css variables */
 
-:root{
-    --navbar-height:50px
+:root {
+    --navbar-height: 50px
 }
 
 /* navbar */
 
-#navbar{
+#navbar {
     display: flex;
     align-items: center;
 }
 
 /* navbar: logo and image */
 
-#logo{
+#logo {
     margin: 1px 20px;
 
 }
 
-#logo img{
+#logo img {
     height: 50px;
     margin: 10px 20px;
 }
 
 /* navbar: list styling */
-#navbar{
+#navbar {
     position: sticky;
     top: 0px;
 }
 
-#navbar::before{
+#navbar::before {
     content: "";
     background-color: black;
     position: absolute;
@@ -51,16 +51,16 @@ html{
     opacity: 0.4;
 }
 
-#navbar ul{
+#navbar ul {
     display: flex;
 }
 
-#navbar ul li{
+#navbar ul li {
     list-style: none;
     font-size: 1.3rem;
 }
 
-#navbar ul li a{
+#navbar ul li a {
     color: white;
     display: block;
     padding: 10px 20px;
@@ -69,14 +69,14 @@ html{
     font-family: "Bree Serif";
 }
 
-#navbar ul li a:hover{
+#navbar ul li a:hover {
     color: black;
     background-color: white;
 }
 
 /* home section */
 
-#home{
+#home {
     display: flex;
     flex-direction: column;
     padding: 20px 10px;
@@ -85,9 +85,9 @@ html{
     align-items: center;
 }
 
-#home::before{
+#home::before {
     content: "";
-    background: url('../img/bg1.jpg') no-repeat center center/cover; 
+    background: url('../img/bg1.jpg') no-repeat center center/cover;
     position: absolute;
     height: 600px;
     width: 100%;
@@ -97,13 +97,13 @@ html{
     opacity: 0.89;
 }
 
-#home h1{
+#home h1 {
     color: white;
     text-align: center;
     font-family: "Bree Serif";
 }
 
-#home p{
+#home p {
     color: white;
     text-align: center;
     font-size: 1.2rem;
@@ -112,7 +112,7 @@ html{
 
 /* services section */
 
-#services-container{
+#services-container {
     background-color: white;
 }
 
@@ -130,13 +130,13 @@ html{
     margin-top: 300px;
 } */
 
-#services{
+#services {
     margin: 34px;
     display: flex;
     justify-content: center;
 }
 
-#services .box{
+#services .box {
     border: 2px solid brown;
     padding: 12px;
     margin: 3px 15px;
@@ -144,23 +144,23 @@ html{
     background-color: rgb(245, 239, 239);
 }
 
-#services .box img{
+#services .box img {
     height: 150px;
     margin: auto;
     display: block;
 }
 
-#services .box p{
+#services .box p {
     font-family: "Bree Serif";
 }
 
 /* client section */
 
-#client-section{
+#client-section {
     height: 344px;
 }
 
-#client-section::before{
+#client-section::before {
     content: "";
     position: absolute;
     /* background: url('../bg2.jpg'); */
@@ -170,26 +170,26 @@ html{
     opacity: 0.7;
 }
 
-#clients{
+#clients {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.client-item{
+.client-item {
     padding: 34px;
 }
 
-#clients img{
+#clients img {
     height: 150px;
 }
 
 /* contact section */
-#contact{
+#contact {
     position: relative;
 }
 
-#contact::before{
+#contact::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -199,7 +199,7 @@ html{
     /* background: url('../bg1.jpg'); */
 }
 
-#contact-box{
+#contact-box {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -207,44 +207,55 @@ html{
 }
 
 #contact-box input,
-#contact-box textarea{
+#contact-box textarea {
     width: 100%;
     padding: 0.5rem;
     border-radius: 9px;
     font-size: 1rem;
 }
 
-#contact-box form{
+#contact-box form {
     width: 40%;
 }
 
-#contact-box label{
+#contact-box label {
     font-size: 1.5rem;
     font-family: "Bree Serif";
 }
 
+.submit {
+    height: 40px;
+    width: 100px;
+    background-color: whitesmoke;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
 /* footer */
 
-footer{
+footer {
     background-color: black;
     color: white;
     padding: 12px 20px;
 }
 
 /* utility classes */
-.h-primary{
+.h-primary {
     font-size: 3rem;
     padding: 15px;
     font-family: "Bree Serif";
 }
 
-.h-secondary{
+.h-secondary {
     font-size: 1.5rem;
     padding: 15px;
     font-family: "Bree Serif";
 }
 
-.btn{
+.btn {
     padding: 6px 20px;
     border: 2px solid white;
     background-color: brown;
@@ -255,6 +266,6 @@ footer{
     cursor: pointer;
 }
 
-.center{
+.center {
     text-align: center;
 }
